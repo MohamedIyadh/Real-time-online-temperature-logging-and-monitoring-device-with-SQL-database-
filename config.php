@@ -8,7 +8,7 @@ define('POST_DATA_URL', 'LOCATION OF THE "sensordata.php" FILE HERE');
 
 //PROJECT_API_KEY is the exact duplicate of, PROJECT_API_KEY in NodeMCU sketch file
 //Both values must be same
-define('PROJECT_API_KEY', '12131415');
+define('PROJECT_API_KEY', 'YOUR API KEY / SHOULD BE THE SAME IN THE ARDUINO PROGRAM');
 
 
 //set time zone for your country
