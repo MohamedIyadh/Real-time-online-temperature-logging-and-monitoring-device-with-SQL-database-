@@ -65,9 +65,10 @@ void uploadSensorData() {
   String temperatureData = "api_key=" + PROJECT_API_KEY;
   temperatureData += "&temperature=" + String(temperature, 2);
   temperatureData += "&humidity=" + String(humidity, 2);
-
-  Serial.println("--------------------------");
-  Serial.println("Temperature Data: " + temperatureData);
+  
+// for Debugging , you could uncomment the following two lines and monitor the output on the serial monitor. 
+//  Serial.println("--------------------------");
+//  Serial.println("Temperature Data: " + temperatureData);
 
   WiFiClientSecure client;
   HTTPClient http;
