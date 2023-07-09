@@ -1,10 +1,10 @@
 <?php 
 define('DB_HOST'    , 'localhost'); 
-define('DB_USERNAME', 'mohasuwb_TRHDB'); 
-define('DB_PASSWORD', '12131415*'); 
-define('DB_NAME'    , 'mohasuwb_TRH_RSSI');
+define('DB_USERNAME', 'YOUR DB USERNAME HERE'); 
+define('DB_PASSWORD', 'YOUR DB PASSWORD HERE'); 
+define('DB_NAME'    , 'YOUR DB NAME HERE');
 
-define('POST_DATA_URL', 'https://mohamediyad.com/sensordata.php');
+define('POST_DATA_URL', 'LOCATION OF THE "sensordata.php" FILE HERE');
 
 //PROJECT_API_KEY is the exact duplicate of, PROJECT_API_KEY in NodeMCU sketch file
 //Both values must be same
