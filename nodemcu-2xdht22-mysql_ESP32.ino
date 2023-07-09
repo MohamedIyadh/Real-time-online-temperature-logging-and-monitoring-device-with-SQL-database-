@@ -6,14 +6,10 @@
 #define DHT_PIN 5    // Replace with the GPIO pin number connected to DHT sensor data pin
 #define DHT_TYPE DHT22
 
+const char* ssid = "YOUR SSID HERE";
+const char* password = "YOUR PASSWORD HERE";
 
-//const char* ssid = "6LuAhOmE";
-//const char* password = "lua12131415lua";
-
-const char* ssid = "HUAWEI-B315-9C32";
-const char* password = "H6YH51M8M80";
-
-const char* SERVER_NAME = "https://mohamediyad.com/sensordata.php";
+const char* SERVER_NAME = "YOUR SERVER LINK HERE/ FULL PATH ";
 const String PROJECT_API_KEY = "12131415";
 
 DHT dht(DHT_PIN, DHT_TYPE);
