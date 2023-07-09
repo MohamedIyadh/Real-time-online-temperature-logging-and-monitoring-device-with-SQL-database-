@@ -24,8 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Humidity2: " . $humidity2 . "<br>";
 
         // Insert the data into the database
-        $sql = "INSERT INTO `MRI2` (`Temperature`, `Humidity`, `number`, `date time`, `Temperature2`, `Humidity2`) 
-                VALUES ('" . $temperature . "', '" . $humidity . "', '', '" . date("Y-m-d H:i:s") . "', '" . $temperature2 . "', '" . $humidity2 . "')";
+        $sql = "INSERT INTO `MRI2` (`Temperature`, `Humidity`, `date time`) 
+                VALUES ('" . $temperature . "', '" . $humidity . "','" . date("Y-m-d H:i:s") . "')";
 
         if ($db->query($sql) === FALSE) {
             echo "Error: " . $sql . "<br>" . $db->error;
