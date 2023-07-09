@@ -10,7 +10,7 @@ const char* ssid = "YOUR SSID HERE";
 const char* password = "YOUR PASSWORD HERE";
 
 const char* SERVER_NAME = "YOUR SERVER LINK HERE/ FULL PATH ";
-const String PROJECT_API_KEY = "12131415";
+const String PROJECT_API_KEY = "YOUR API KEY / SHOULD BE THE SAME IN config.php ";
 
 DHT dht(DHT_PIN, DHT_TYPE);
 
