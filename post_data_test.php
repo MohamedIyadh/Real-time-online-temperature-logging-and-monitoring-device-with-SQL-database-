@@ -4,7 +4,7 @@
 <html>
 <body>
 
-<h2>AhmadLogs - Test POST data</h2>
+<h2> TEST POSTING </h2>
 
 <form method="POST" action="<?php echo POST_DATA_URL;?>">
   <label for="apikey">Api Key:</label><br>
